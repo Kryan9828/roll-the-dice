@@ -3,3 +3,12 @@
 button {
   cursor: pointer;
 }
+
+#graph{
+  display: flex;
+  flex-direction: row;  
+}
+
+div,#2{
+  border: aqua;
+}
