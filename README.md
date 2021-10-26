@@ -1,5 +1,3 @@
-# Kenzie JS and the DOM Assessment
+Roll the Dice
 
-Complete your work inside of `code.js`
-
-Follow the instructions provided on my.kenzie.academy for this assignment.
+Program allows you to roll a single pair of dice or a 1000 pairs of dice and track the previous rolls to the screen.

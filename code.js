@@ -1,8 +1,5 @@
 let results = [null, null, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
-
-// Your Code Here!
-
 let rollButton = document.getElementById("roll")
 let rollResults = document.getElementById("result")
 let graphRenderVar = document.getElementById("graph")
@@ -25,9 +22,7 @@ function renderGraph(){
         let div = document.createElement("div")
         graphRenderVar.append(div)
         div.innerText = `You have rolled a ${i} ${results[i]} times.`
-        div.id = i
-        console.log (div.innerText)
-        
+        div.id = i        
     }
     return
 }
